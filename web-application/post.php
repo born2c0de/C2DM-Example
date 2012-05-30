@@ -102,6 +102,10 @@
 			$authCode = googleAuthenticate($username,$gpass);
 			echo "C2DM Server Message :<br /> " . sendMessageToPhone($authCode,$regID,$msgType,$msgContent);
 		}
+		else
+		{
+			echo "Device is not Registered";
+		}
 	}
 	else
 	{
