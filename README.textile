@@ -1,5 +1,4 @@
-C2DM-Example
-============
+h1. C2DM-Example
 
 h2. Contents
 
